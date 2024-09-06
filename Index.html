@@ -4,23 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .game-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .game-description {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .game-image img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div>Nombres: Cs2</div>
-    <Div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHI517wV2HmNOW2T1zZ3U_iQ8MusvjTFqDPYFpxP8BVw-Ie43OguoZAuVsvqW8ctF4-FhlOcXdroJOW0QRA17rdfAJtikTHw-uJCCEZU" alt=""></Div>
-    <div>Counter-Strike 2 es un videojuego de disparos táctico en primera persona multijugador de 2023 desarrollado y publicado por Valve. </div>
-    <div>Nombres: Zelda TOTK</div>
-    <div><img src="https://i.ytimg.com/vi/gp9aY09li1s/maxresdefault.jpg" alt="The Legend of Zelda: Tears of the Kingdom"></div>
-    <div>The Legend of Zelda: Tears of the Kingdom es un videojuego de acción y aventura de 2023 desarrollado y publicado por Nintendo.</div>
-    <div>Nombres: Elden Ring</div>
-    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQ-ZlMzSD9Qx1OcxdfUhNkgmZ6rV2Wwqdqw9sVQJJLyrfipgcRGlvjqaZTTNdFPb4KDg0Su-ekEUl4NLBnYNP-sZ3jDemq2Zi_186CE8" alt="Elden Ring"></div>
-    <div>Elden Ring es un videojuego de rol de acción de 2022 desarrollado por FromSoftware y publicado por Bandai Namco Entertainment.</div>
-    <div>Nombres: RE4 Remake</div>
-    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzSLv-qGM3VuKvoMo2thkcqgi0Fr5f4BVx0g&s" alt="Resident Evil 4 Remake"></div>
-    <div>Resident Evil 4 Remake es un videojuego de terror de supervivencia de 2023 desarrollado y publicado por Capcom.</div>
-    <div>Nombres: FF XVI</div>
-    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YH3HCaL5TRgkNFPfCjaASNnk-dpwUWTKqg&s" alt="Final Fantasy XVI"></div>
-    <div>Final Fantasy XVI es un videojuego de rol de acción de 2023 desarrollado y publicado por Square Enix.</div>
+    <div class="container">
+        <div class="game-title">Nombres: Cs2</div>
+        <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHI517wV2HmNOW2T1zZ3U_iQ8MusvjTFqDPYFpxP8BVw-Ie43OguoZAuVsvqW8ctF4-FhlOcXdroJOW0QRA17rdfAJtikTHw-uJCCEZU" alt="Counter-Strike 2">
+        </div>
+        <div class="game-description">Counter-Strike 2 es un videojuego de disparos táctico en primera persona multijugador de 2023 desarrollado y publicado por Valve.</div>
+    </div>
 
+    <div class="container">
+        <div class="game-title">Nombres: Zelda TOTK</div>
+        <div class="game-image">
+            <img src="https://i.ytimg.com/vi/gp9aY09li1s/maxresdefault.jpg" alt="The Legend of Zelda: Tears of the Kingdom">
+        </div>
+        <div class="game-description">The Legend of Zelda: Tears of the Kingdom es un videojuego de acción y aventura de 2023 desarrollado y publicado por Nintendo.</div>
+    </div>
+
+    <div class="container">
+        <div class="game-title">Nombres: Elden Ring</div>
+        <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQ-ZlMzSD9Qx1OcxdfUhNkgmZ6rV2Wwqdqw9sVQJJLyrfipgcRGlvjqaZTTNdFPb4KDg0Su-ekEUl4NLBnYNP-sZ3jDemq2Zi_186CE8" alt="Elden Ring">
+        </div>
+        <div class="game-description">Elden Ring es un videojuego de rol de acción de 2022 desarrollado por FromSoftware y publicado por Bandai Namco Entertainment.</div>
+    </div>
+
+    <div class="container">
+        <div class="game-title">Nombres: RE4 Remake</div>
+        <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzSLv-qGM3VuKvoMo2thkcqgi0Fr5f4BVx0g&s" alt="Resident Evil 4 Remake">
+        </div>
+        <div class="game-description">Resident Evil 4 Remake es un videojuego de terror de supervivencia de 2023 desarrollado y publicado por Capcom.</div>
+    </div>
+
+    <div class="container">
+        <div class="game-title">Nombres: FF XVI</div>
+        <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YH3HCaL5TRgkNFPfCjaASNnk-dpwUWTKqg&s" alt="Final Fantasy XVI">
+        </div>
+        <div class="game-description">Final Fantasy XVI es un videojuego de rol de acción de 2023 desarrollado y publicado por Square Enix.</div>
+    </div>
 </body>
 </html>
